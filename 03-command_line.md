@@ -35,7 +35,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls - lists all files in a directory that are not hidden
+ls -a - lists all files including hidden files
+ls -l - lists long format (with permissions)
+ls -lh - list long format with readable file size
+ls -lah - list long format with all files (including hidden) with readable file size
+ls -t - list files sorting by date and time
+ls -Glp - list files without group names, in a long listing, appending a / to directories 
+
 
 ---
 
@@ -43,7 +50,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+ls -R - recursively displays the contents of all subdirectories in a directory
+ls -r - displays files in reverse order.  Good if you know the file you are looking for starts with a z.
+ls -L - displays files in a directory referenced by a symbolic link. Great to use when installing CUDA.
+ls -p - displays directorys with a / at the end.  A bit easier to see directories
+ls -1 - puts one file/directory per line. Can be easier to read
 
 ---
 
@@ -51,7 +62,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs reads in data input and executes the command one or more times on the input read. An example would be to type:
+xargs find -name
+"*.sh" control-D
+and the output would be: myshellscript.sh
 
  
 
