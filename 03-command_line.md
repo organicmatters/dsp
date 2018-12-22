@@ -35,13 +35,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-ls - lists all files in a directory that are not hidden
-ls -a - lists all files including hidden files
-ls -l - lists long format (with permissions)
-ls -lh - list long format with readable file size
-ls -lah - list long format with all files (including hidden) with readable file size
-ls -t - list files sorting by date and time
-ls -Glp - list files without group names, in a long listing, appending a / to directories 
+ls - lists all files in a directory that are not hidden**
+ls -a - lists all files including hidden files**
+ls -l - lists long format (with permissions)**
+ls -lh - list long format with readable file size**
+ls -lah - list long format with all files (including hidden) with readable file size**
+ls -t - list files sorting by date and time**
+ls -Glp - list files without group names, in a long listing, appending a / to directories** 
 
 
 ---
@@ -62,9 +62,9 @@ ls -1 - puts one file/directory per line. Can be easier to read
 
 What does `xargs` do? Give an example of how to use it.
 
-xargs reads in data input and executes the command one or more times on the input read. An example would be to type:
-xargs find -name
-"*.sh" control-D
+xargs reads in data input and executes the command one or more times on the input read. An example would be to type:**
+xargs find -name**
+"*.sh" control-D**
 and the output would be: myshellscript.sh
 
  
